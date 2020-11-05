@@ -56,7 +56,7 @@ const languages = {
     "ko": "Korean",
     "ku": "Kurdish (Kurmanji)",
     "ky": "Kyrgyz",
-  "lo": "Lao",
+    "lo": "Lao",
     "la": "Latin",
     "lv": "Latvian",
     "lt": "Lithuanian",
