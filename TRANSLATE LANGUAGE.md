@@ -1,4 +1,8 @@
-# List of Translated Languages.
+# Language support
+
+The Translation API's recognition engine supports a wide variety of languages for the Neural Machine Translation (NMT) model.
+These languages are specified within a recognition request using language code parameters as noted on this page. Most language code parameters conform to ISO-639-1 identifiers, except where noted.
+Translations from any language to any language in this list are supported. The list is updated as new languages are added. You can also list the supported languages by using Cloud Translation - Basic or Cloud Translation - Advanced APIs.
 
 ```css
 const languages = {
@@ -109,3 +113,7 @@ const languages = {
     "zu": "Zulu"
 };
 ```
+
+`Note:`
+The Latin (la) language is not supported by the Neural Machine Translation (NMT) model. 
+If you request a translation by using the NMT model, the Cloud Translation API defaults to the Phrase-Based Machine Translation (PBMT) model to translate your text.
